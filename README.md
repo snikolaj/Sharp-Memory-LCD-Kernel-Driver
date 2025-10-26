@@ -9,17 +9,16 @@ This driver is for the LS027B7DH01. It *should* work with other Sharp Mem LCD di
 ## Hookup Guide
 Connect the following pins:
 
-Display | RasPi (IO numbers)
-------- | ---------
-VIN     | 3.3V      
-3V3     | N/C       
-GND     | GND       
-SCLK    | 11 (SCLK) 
-MOSI    | 10 (MOSI) 
-CS      | 23        
-EXTMD   | 3.3V      
-DISP    | 24        
-EXTIN   | 25        
+Display   | RasPi (IO numbers)
+--------- | ----------
+VDD/AVDD  | 5.0V            
+VSS/AVSS  | GND       
+SCLK      | 11 (SCLK) 
+MOSI      | 10 (MOSI) 
+CS        | 23        
+EXTMD     | 3.3V/5.0V      
+DISP      | 24        
+EXTIN     | 25        
 
 ## Compile/Install the driver
 ### Requirements
